@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Let's Code</title>
+    <link rel="icon" href="../img/icon-02.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="../js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid"> 
+       <!-- box-header -->
+            <header class="box-header">
+             <div class="box-logo">
+                <a href="../index.html"><img src="../img/Logo-01.png" width="80" alt="Logo"></a>
+            
+             <div id="search-box">
+                <gcse:searchbox-only newWindow=true></gcse:searchbox-only></div>
+            </div>
+
+
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+        </header>
+        <!-- end box-header -->
+        
+        <!-- nav -->
+        <nav>
+          <ul class="box-primary-nav">
+           <div style="float: left; width: 33%;">
+<ul>
+ <li><a href="index.html">Let's Code</a>
+                <li><a href="../about.html">Do you know?!</a></li>
+                 <li><a href="../color.html">Color</a></li>
+               <li><a href="../checklist.html">Check List</a></li>
+                <li><a href="../contact.html">Contact Us</a></li>
+                  <li><a href="https://people.ucsc.edu/~shhchien/art101/">Ivory Chien</a></li>
+                <li><a href="https://people.ucsc.edu/~twang145/art101/week01/Index.html">Diane Wang</a></li>
+                 <li><a href="https://people.ucsc.edu/~ado12/art101/week01/">Angela Do</a></li>
+
+
+</ul>
+</div>
+<div style="float: left; width: 33%;">
+<ul>
+<li class="active">HTML5 Tutorial</li>
+	<li><a href="htbasics.html">HTML | Basics</a></li>
+                	<li><a href="htele.html">HTML | Elements</a></li>
+                	<li><a  class="active" href="htatt.html">HTML | Attributes</a></li>
+                	<li><a  href="hthead.html">HTML | Headings</a></li>
+                	<li><a href="htpr.html">HTML | Paragraphs</a></li>
+               
+                	<li><a   href="tag.html">HTML | Tage Refrerence</a></li>
+
+</ul>
+</div>
+<div style="float: right; width: 33%;">
+<ul>
+<li class="active">CSS Tutorial</li>
+					<li><a href="../cssto/cssbasics.html">CSS | Basics</a></li>
+                	<li><a href="../cssto/cssele.html">CSS | Elements</a></li>
+                	<li><a href="../cssto/cssatt.html">CSS | Attributes</a></li>
+                	<li><a href="../cssto/csscls.html">CSS | Classes and Ids</a></li>
+                	<li><a href="../cssto/csstxt.html">CSS | Text Properties</a></li>
+                	<li><a href="../cssto/cssfon.html">CSS | Font Porperties</a></li>
+                	
+	</ul>
+</div>
+</ul>
+        </nav>
+        <!-- end nav -->
+       
+      
+    </div>
+    <!-- Top bar -->
+   <section class="box-intro">
+            <div class="table-cell">
+                <h1 class="box-headline letters rotate-2">
+                    <span class="box-words-wrapper">
+                        <b class="is-visible">HTML</b>
+                       
+                        <b>Tutorial</b>
+                    </span>
+		        </h1>
+                
+            </div>
+
+            <div class="mouse">
+                <div class="scroll"></div>
+            </div>
+        </section>
+    <!-- end Top bar -->
+    
+    <!-- Main container -->
+    <!-- Tutorial div -->
+  
+<div id="all">
+<h1 class="title">HTML | Attributes</h1>
+<p class="totext">
+An attribute is used to provide extra or additional information about an element.
+		<br>
+		<br>
+		All HTML elements can have attributes.
+		<br>
+		Attributes provide additional information about an element.
+		<br>
+		Attributes are always specified in the start tag.
+		<br>
+		Attributes usually come in a name and a value pairs like <strong> name="value" </strong> 
+		<br>Every name has some value that must be written within quotes.
+</p>
+<h2 class="title" style="color:#EF9A9A;">Syntax</h2>
+
+<p class="textarea-2">
+	
+			&#60;element attribute_name="attribute_value"&#62; Let's Code &#60;/element&#62;
+	
+	</p>
+	<h2 class="title" style="color:#EF9A9A;">The href Attribute</h2>
+	<p class="totext">
+	HTML images are defined with the <strong>&#60;img&#62;</strong> tag.
+<br>
+The filename of the image source is specified in the <strong>src</strong>attribute:
+	</p>
+	<p class="textarea-2">
+	&#60;a href="https://www.google.com"&#62; This is a link&#60;/a&#62; 
+	</p>
+  <button class="trybtn"><a href="https://jsfiddle.net/okv2nwpe/1">Try it yourself</a></button>
+
+<h2 class="title" style="color:#ef9a9a">The src Attribute, insert an image in your page</h2>
+	<p class="totext">
+		HTML links are defined with the <strong>&#60;a&#62;</strong> tag.
+	<br> The link address is specified in the <strong>href</strong> attribute
+	<br>
+insert an image url in between <strong>"  "</strong>
+	</p>
+	
+	<p class="textarea-2">
+	
+	&#60;img src="../image/image_coffee.jpeg"&#62;
+
+
+	</p>
+  
+  <h2 class="title" style="color:#EF9A9A;">The width and height Attributes</h2>
+  
+  <p class="totext">
+Images in HTML have a set of <strong>size</strong> attributes, which specifies the width and height of the image:
+	</p>
+	<p class="textarea-2">
+		&#60;img src="../image/image_coffee.jpeg" width="500
+ height="500"&#62;		
+	</p>
+	  <button class="trybtn"><a href="https://jsfiddle.net/shhchien/om2y8c1d/13/">Try it yourself</a></button>
+		
+	<p class="textarea-4">
+		<strong>Note</strong>
+		<br>
+The image size is specified in pixels: width="500" means 500 pixels wide.
+	</p>
+	 <h2 class="title" style="color:#ef9a9a">The alt Attributes</h2>
+	 
+	<p class="totext">
+	The <strong>alt</strong> attribute specifies an alternative text to be used, when an image cannot be displated. 
+<br>
+<br>
+the value of the attribute can be read by screen readers. 
+<br>
+<br>
+<strong>See what happens if we try to display an image that does not exist:</strong>
+	</p>
+  
+  <p class="textarea-2">
+		&#60;img src="../image/image_coffee.jpeg" alt="a coffee cup"&#62;	
+	</p>
+	  
+	  <button class="trybtn"><a href="https://jsfiddle.net/shhchien/2r49epak/2/">Try it yourself</a></button>
+	  <p class="textarea-4">
+	<strong>Note</strong>
+	<br>
+	The <strong>alt</strong> attribute is also useful if the image does not exist
+	</p>
+	
+	<h2 class="title" style="color:#EF9A9A;">The style Attributes</h2>
+	
+	<p class="totext">
+The <strong>style</strong> attribute is used to specify the styling of an element, like color, font, size etc.
+
+	</p>
+
+<p class="textarea-2">
+
+		&#60;p style="color:green"&#62;	This is a paragraph &#60;/p&#62;
+	</p>
+	
+	<h2 class="title" style="color:#EF9A9A;">HTML Attributes</h2>
+	
+	  	<p class="totext">
+Below is an alphabetical list of some attributes often used in HTML
+	</p>
+  	<table id="tbexample-2">
+	  	<tr>
+	  		<th>Attribute</th>
+	  		<th>Description</th>
+	  		
+	  	</tr>
+	  	<tr>
+	  	<td>alt</td>
+	  	<td>Specifies an alternative text for an image, when the image cannot be displayed</td>
+	  	</tr>
+	  		<tr>
+	  	<td>disabled</td>
+	  	<td>Specifies that an input element should be disabled</td>
+	  	</tr>
+	  	<tr>
+	  	<td>href</td>
+	  	<td>Specifies the URL (web address) for a link</td>
+	  	</tr>
+	  		<tr>
+	  	<td>id</td>
+	  	<td>Specifies a unique id for an element</td>
+	  	</tr>
+	  		<tr>
+	  	<td>src</td>
+	  	<td>Specifies the URL (web address) for an image</td>
+	  	</tr>
+	  	<tr>
+	  	<td>style</td>
+	  	<td>Specifies an inline CSS style for an element</td>
+	  	</tr>
+	  	<tr>
+	  	<td>title</td>
+	  	<td>Specifies extra information about an element (displayed as a tool tip)</td>
+	  	</tr>
+	  </table>
+	  <h2 class="title" style="color:#EF9A9A;">Section Summary</h2>
+	  
+	  <p class="textarea-4">
+		<strong>Note</strong>
+		<br>
+All HTML elements can have <strong>attributes</strong>
+<br>
+The <strong>title</strong> attributes provides additional "tool-tip" information
+<br>
+The <strong>href</strong> attributes provides address information for links
+<br>
+The <strong>width</strong> and <strong> height</strong> attributes provide size information for images
+<br>
+The <strong> alt</strong> attribute provides text for screen readers
+<br>
+Always use <strong>lowercase</strong> attribute names
+<br>
+Always <strong>quote</strong> attribute values with double quotes
+	</p>
+  
+ <br>
+   <br>
+    <div class="btn2">
+
+	<a href="htbasics.html"> &larr; Back</a>
+	
+	<a href="hthead.html">Next &rarr;</a>
+	
+	
+	</div>
+</div>
+    <!-- end Main container -->
+
+
+     <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            
+ <p class="copyright">Designed  by <a href="https://people.ucsc.edu/~shhchien/art101">Ivory Chien</a> / <a href="https://people.ucsc.edu/~twang145/art101/week01/Index.html">Diane Wang</a> /  <a href="https://people.ucsc.edu/~ado12/art101/week01/">Angela Do</a></p>
+        <div id="counter"> </div>
+        </div>
+        
+        
+    </footer>
+    <!-- end footer -->
+   
+    
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+     <!-- jQuery -->
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/animated-headline.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+	<script src="../js/collapsible.js"></script>
+
+
+    <!--  custom script -->
+    <script src="../js/custom.js"></script>
+    <script src="../js/search.js"></script>
+     <script src="../js/counter.js"></script>
+     <script src="../js/search2.js"></script>
+
+</body>
+
+</html>
